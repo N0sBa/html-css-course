@@ -1,3 +1,29 @@
 body {
-  font-family: Futura;
+  margin: 0 auto;
+  background-image: url(restaurant.webp);
+  background-size: cover;
+  background-position: center;
+}
+
+
+header {
+  background: #1F3265;
+  text-align: center;
+}
+
+main {
+  background: #FF6239;
+  float: left;
+  width: 70%;
+}
+
+aside {
+  background: #FFE209;
+  float: right;
+  width: 25%;
+}
+
+footer {
+  background: #00FF09;
+  clear: both;
 }
