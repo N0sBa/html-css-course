@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+}
+
+header {
+  background-color: purple;
+  /*10% of viewport's width of lesser demension*/
+  width: 10vmin;
+  text-align: center;
+}

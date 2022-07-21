@@ -1,0 +1,46 @@
+html {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+  margin: 0;
+}
+
+.box {
+  width: 50%;
+  margin: 0 auto;
+}
+
+h1 {
+  background-color: steelblue;
+  padding: 1em 3em;
+  outline: 5px solid steelblue;
+  outline-offset: 5px;
+  margin-bottom: 50px;
+  color: white;
+}
+
+.button {
+  background-color: aquamarine;
+  display: inline-block;
+  text-decoration: none;
+  padding: 1em 3em;
+  outline: 3px solid white;
+  transition: outline-offset 250ms ease-in-out;
+  /* transition-duration: 250ms; */
+  /* animation: move 3s ease infinite; */
+  border-radius: 4px;
+  color: black;
+}
+
+.button:hover {
+  outline-offset: -8px;
+  /* transform: rotate(45deg); */
+}
+
+/* 
+@keyframes move {
+  50% {
+     transform: translate(calc(90vw - 200px), calc(90vh - 160px));
+  }
+} */
