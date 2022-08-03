@@ -280,3 +280,11 @@ aside {
 footer {
   clear: both;
 }
+
+.author-img {
+  float: left;
+}
+
+.author {
+  padding-left: 10px;
+}
