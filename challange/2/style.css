@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    border: 4px solid black;
+    margin-top: 50px;
+}
+
+header {
+    background-color: #eee;
+}
+
+.header-title {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0.5em 0.75em;
+    position: relative;
+}
+
+.header-title::before {
+    content: "SALE";
+    font-size: 0.7em;
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    color: white;
+    background-color: red;
+    padding: 0.5em 0.6em;
+}
+
+.img {
+    float: left;
+    width: 33%;
+}
+
+.item-head__image {
+    width: 100%;
+}
+
+.short-info {
+    float: left;
+    padding: 2em;
+    width: 33%;
+}
+
+.price {
+    float: left;
+    margin: 0;
+}
+
+.shipping {
+    float: right;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: .1em;
+    color: #777;
+    /* transition: text-transform ease-in-out 2000ms; */
+}
+
+.information {
+    clear: both;
+}
+
+.information__link:link {
+    color: black;
+}
+
+.information__link:hover {
+    text-decoration: none;
+}
+.information__link:focus,
+.information__link:visited {
+    color: black;
+}
+
+.color {
+    padding: 1em 0 0 0;
+}
+
+.color__black {
+    background-color: black;
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+}
+
+.color__blue {
+    background-color: rgb(55, 121, 235);
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+}
+
+.color__red {
+    background-color: rgb(219, 57, 57);
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+}
+
+.color__yellow {
+    background-color: rgb(221, 215, 56);
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+}
+
+.color__green {
+    background-color: rgb(56, 221, 97);
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+}
+
+.color__brown {
+    background-color: rgb(53, 39, 13);
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+}
+
+.detail-info {
+    float: left;
+    width: 33%;
+    padding: 2em;
+}
+
+.detail__title {
+    margin: 0;
+}
+
+.detail__title {
+    text-transform: uppercase;
+}
+
+.detail__list {
+    list-style-type: square;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: 1em;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1em;
+    transition: background-color ease-in-out 250ms;
+    border-top: 4px solid black;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: black;
+    background-color: white;
+}

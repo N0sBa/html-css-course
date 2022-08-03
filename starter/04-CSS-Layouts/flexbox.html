@@ -11,6 +11,7 @@
       }
       .el--2 {
         background-color: orangered;
+        height: 250px;
       }
       .el--3 {
         background-color: green;
@@ -40,6 +41,21 @@
         margin: 40px;
 
         /* FLEXBOX */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .el {
+        flex-basis: 210px;
+        /* flex-basis: 50px; */
+        flex-grow: 1;
+      }
+
+      .el--1 {
+        flex-grow: 2;
+        /* flex-grow: 1; */
+        /* flex-grow: 1; */
       }
     </style>
   </head>
