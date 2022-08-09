@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carousel Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .carousel {
+            width: 800px;
+            margin: 100px auto;
+            background-color: #087f5b;
+            padding-left: 80px;
+            border-radius: 8px;
+
+            display: flex;
+            align-items: center;
+
+            position: relative;
+        }
+        img {
+            width: 80px;
+            height: 80px;
+            border-radius: 8px;
+            transform: scale(2.35);
+            box-shadow: 0 0 12px 12px rgba(0,0,0,0.1);
+        }
+        .content {
+            padding: 32px 80px 32px 80px;
+            color: #fff;
+            margin-bottom: 16px;
+        }
+        .content-detail {
+            font-size: 1rem;
+            margin-bottom: 8px;
+        }
+        .content-author {
+            font-size: 0.9rem;
+        }
+        .content-job {
+            font-size: 0.8rem;
+        }
+        .btn {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            border: none;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            position: absolute;
+            cursor: pointer;
+
+            box-shadow: 0 0 12px 4px rgba(0,0,0,0.2);
+        }
+        .btn--left {
+            left: 0;
+            transform: translate(-50%, 0);
+        }
+        .btn-right {
+            right: 0;
+            transform: translate(50%, 0);
+        }
+        .dots {
+            /* list-style: circle; */
+            display: flex;
+            gap: 8px;
+
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translate(-50%, 24px);
+        }
+        .dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            border: 2px solid #087f5b;
+            cursor: pointer;
+        }
+        .dot--fill {
+            background-color: #087f5b;
+        }
+    </style>
+</head>
+<body>
+    <div class="carousel">
+        <img src="maria.jpg" alt="Maria">
+        <div class="content">
+            <p class="content-detail">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat beatae, facilis hic qui sapiente illum sit placeat incidunt? Quidem, fugiat?</p>
+            <p class="content-author">Maria Deia Kiags</p>
+            <p class="content-job">Content Manager of Momo</p>
+        </div>
+        <button class="btn btn--left">
+            <svg xmlns="http://www.w3.org/2000/svg" class="" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
+              </svg>
+        </button>
+        <button class="btn btn-right">
+            <svg xmlns="http://www.w3.org/2000/svg" class="" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+              </svg>
+        </button>
+        <div class="dots">
+            <button class="dot dot--fill">&nbsp;</button>
+            <button class="dot">&nbsp;</button>
+            <button class="dot">&nbsp;</button>
+            <button class="dot">&nbsp;</button>
+        </div>
+    </div>
+</body>
+</html>
