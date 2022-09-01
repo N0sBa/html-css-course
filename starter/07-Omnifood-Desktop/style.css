@@ -114,6 +114,18 @@
     font-weight: 500;
 }
 
+/* FEATURED-IN SECTION */
+.featured-in {
+    
+}
+.featured-in-tile {
+    text-align: center;
+}
+.featured-in-logo {
+    width: 100%;
+}
+
+
 /*****************************************/
 /************** HOW IT WORKS SECTION *************/
 /*****************************************/
