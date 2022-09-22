@@ -1,4 +1,4 @@
-z/*****************************************/
+/*****************************************/
 /************** GENERAL *************/
 /*****************************************/
 
@@ -32,6 +32,10 @@ body {
 
 .justify-content--space-between {
     justify-content: space-between;
+}
+
+.justify-content--space-around {
+    justify-content: space-around;
 }
 
 .align-item--center {
@@ -198,4 +202,8 @@ body {
 
 .margin-bottom-sm {
     margin-bottom: 1.6rem;
+}
+
+strong {
+    font-weight: 500;
 }
